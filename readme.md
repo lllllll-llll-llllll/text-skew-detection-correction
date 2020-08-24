@@ -1,4 +1,6 @@
-this is an autoit script utilizing imagemagick that can detect and correct skewed batches of images containing text.  
+this is an autoit script utilizing imagemagick that can detect and correct skewed batches of images containing text.
+  
+it does not check if the resulting image's text is upside down as of now, so if the input image's text is mostly upside down the output image's text will also.  
   
 if you want to see examples of it:  
   'input' folder contains some skewed images.  
