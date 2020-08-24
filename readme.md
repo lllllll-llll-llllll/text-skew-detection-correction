@@ -7,7 +7,7 @@ if you want to see examples of it:
   'output' folder contains the resulting corrected images.  
   
 basic idea:
-  - images containing text with a median filter applied creates long blobs, which can be used to detect lines and figure out the angles of these lines, which is what is used to apply a corrective rotation.  
+  images containing text with a median filter applied creates long blobs, which can be used to detect lines and figure out the angles of these lines, which is what is used to apply a corrective rotation.  
   
   
 how it works:
