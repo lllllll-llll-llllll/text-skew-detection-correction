@@ -6,13 +6,9 @@ if you want to see examples of it:
   'input' folder contains some skewed images.  
   'output' folder contains the resulting corrected images.  
   
-basic idea  
-images containing text with a median filter applied creates long blobs, which can be used to detect lines and figure out the angles of these lines, which is what is used to apply a corrective rotation.  
-  
-  
-  
-  
-  
+theory of operation:  
+  images containing text with a median filter applied creates long blobs, which we can outline, then form lines based on, and figure out the angles of these lines, the strongest of which is used to apply a corrective rotation.  
+ 
 how it works:  
   - #.png > median filter > canny edge detection > hough line transform > lines.mvg
   - parse line angles/distances from lines.mvg
