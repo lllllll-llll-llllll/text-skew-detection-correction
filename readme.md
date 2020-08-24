@@ -13,7 +13,7 @@ images containing text with a median filter applied creates long blobs, which ca
   
   
   
-how it works:
+how it works:  
   - #.png > median filter > canny edge detection > hough line transform > lines.mvg
   - parse line angles/distances from lines.mvg
   - angle strength grows by its distance
