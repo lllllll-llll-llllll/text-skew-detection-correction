@@ -41,7 +41,7 @@ for $i = 0 to ubound($files) - 1
 	  endif
    next
 
-   ;apply rotation
+   ;apply rotation and auto trim
    $skew = 90 - $best_index
    $command = 'magick ' & $files[$i] & ' -virtual-pixel white +distort SRT ' & $skew & ' -trim -fuzz 50%% ' & @scriptdir & '\output\' & $filename
    runwait(@ComSpec & " /c " & $command, "", @SW_HIDE)
