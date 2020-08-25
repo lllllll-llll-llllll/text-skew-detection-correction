@@ -1,4 +1,4 @@
-this is an autoit script utilizing imagemagick that can detect and correct skewed batches of images containing text.
+this is an autoit script utilizing imagemagick that can correct skews for images containing text, and automatically crop to the text.
   
 the degree of skew correction is only to the nearest integer of a degree. it does not check if the resulting image's text is upside down as of now, so if the input image's text is mostly upside down the output image's text will also.  
   
